@@ -1,0 +1,63 @@
+
+1. nvm ls
+2. nvm install 12.14.1
+3. nvm alias default 12.14.1
+    or
+   nvm use 12.14.1
+
+
+==== Part #1: Setting up the development environment ===
+
+1. download dotnet sdk: https://dotnet.microsoft.com/en-us/download
+2. download postman: https://www.postman.com/downloads/
+3. download Vs code: https://code.visualstudio.com/download
+
+
+
+==== Part #2: Setting up VS Code for C# development ===
+
+ Extensions => 
+      - C# dev kit
+      - Material Icon theme
+      - sql server (mssql) - optional
+      - nuget gallery  - optional
+
+
+==== Part #3: Create Angular Project ===
+
+1. download and install nvm or node js: https://nodejs.org/en/download
+2. check node version if its not compatible then install compatible version
+3. Install angular cli 
+      - check angular version if its installed: ng -v
+      - install angular cli globally: npm install -g @angular/cli@19
+
+4. Create new Angular project
+      - navigate to appropriate folder
+           - open 'Developers command prompt'
+           - navigate to directory or specific folder
+      - ng new projectname
+            OR
+        ng new projectname (optionally use => --dry-run)
+            OR
+        ng new projectname --inline-style --inline-templates (create with some configuration)
+
+      - Run project => ng serve
+
+5. Reviewing project files
+6. Install Angular DevTools extension on chrome
+7. Stop angular project: ctrl+c
+
+
+
+
+====== CLI Commands to remember =====
+
+- check node version: node -v
+- install node version using nvm: nvm install 22.0.0 => nvm ls => nvm use 22.0.0
+
+
+
+
+
+
+
