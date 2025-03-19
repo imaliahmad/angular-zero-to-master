@@ -1,0 +1,39 @@
+===== 1. create new component ====
+
+ng g c header --dry-run
+  OR
+ng g c header
+  OR
+ng generate component header
+// it will create inside `src/app` folder
+
+
+/*** you can also create in a nested folder ***/
+
+ng g c component/header
+// it will create inside `src/app/components` folder
+
+
+ng g c home 
+// creates the HomeComponent
+
+
+
+
+===== 2. Data Binding ===== 
+ - Traditional way (Angular 16)
+ - Modern way (Angular 19) => Signal
+
+
+
+===== 3. Create Category/Product components and display data ====
+ - ngFor directives
+ - @for
+
+
+===== 4. Routing ====
+ - define routes in app.routes.ts
+ - fix the routerLink in header
+
+
+

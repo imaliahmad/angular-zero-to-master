@@ -1,0 +1,11 @@
+
+===== 1. Add Button click event ====
+
+
+===== 2. Add Bootstrap & jQuery ====
+
+ use this command to install bootstrap and jquery
+   - npm install bootstrap jquery (it will add packages in node_modules folder)
+   - add bootstrap.min.css, bootstrap.min.js in angular.json
+
+===== 3. Pass data from parent to child ====
